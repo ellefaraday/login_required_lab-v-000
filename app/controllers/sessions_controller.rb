@@ -19,6 +19,9 @@ class SessionsController < ApplicationController
     redirect_to '/login'
   end
 
+  def show
+  end
+
   private
 
   def current_user
