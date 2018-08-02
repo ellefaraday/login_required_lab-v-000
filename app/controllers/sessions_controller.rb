@@ -7,6 +7,9 @@ class SessionsController < ApplicationController
 
   def create
   end
+
+  def destroy
+  end
   private
   def current_user
     redirect_to '/login' unless session.include? :username
